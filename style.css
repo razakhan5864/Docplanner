@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conatiner{
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    align-items: center;
+    justify-content: center;
+    
+}
+.headingbar{
+    width: 100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.allbox{
+    width: 85%;
+    height: 70vh;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.boxes{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.box{
+    height: auto;
+    padding: 5px;
+    width:100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+.left-box{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.left-box span{
+    font-size: 13px;
+}
+.right-box{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.right-box img{
+    width: 50px;
+    height: auto;
+    border-radius: 40px;
+    
+}
+.allbox i{
+
+    height: 30px;
+    width: 30px;
+    border: 2px #74C0FC solid;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 5px;
+    
+}
+.btn{
+
+    height:auto;font-size: 9px;
+    width: 33%;
+
+}
+.box:nth-child(2) .left-box{
+    width: 18%;
+}
+.box:nth-child(3) .left-box{
+    width: 18%;
+}
+.box:nth-child(6) .left-box{
+    width: 18%;
+}
+.box:nth-child(2){
+    border-bottom:1px rgb(128, 128, 128) solid;
+    border-top:1px gray solid;
+}
+.box:nth-child(4){
+    border-bottom:1px gray solid;
+    border-top:1px gray solid;
+}
+.box:nth-child(5){
+    border-bottom:1px gray solid;
+    /* border-top:1px gray solid; */
+}
+.last{
+
+    height:50px;
+    width: 60%;
+    background-color:white;
+    /* border: 0.1px black solid; */
+    border-radius: 8px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 250px;
+    
+
+}
+.right-box button{
+
+    height: 25px;
+    width: 60px;
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+}
+.last i{
+
+    border: none;
+}
+.fot span{
+
+    color: rgb(80, 80, 234);
+}
+.fot{
+    margin-top: 40px;
+}
+@media(max-width : 768px){
+
+    .conatiner{
+        height: auto;
+    }
+
+
+
+}
